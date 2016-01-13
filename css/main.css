@@ -18,9 +18,9 @@ body{
 }
 
 #textContent{
-  background: rgba(255,255,255, 0.8);
+  /*background: rgba(255,255,255, 0.8);
   color: inherit;
-  border-radius: 10px;
+  border-radius: 10px;*/
   text-align: justify;
   margin-top: 10%;
   font-size: 15px;
@@ -54,9 +54,19 @@ body{
 	min-height: 100%;
   min-width: 100%;
 	padding: 50px 0;
+	background-color: white;
+	color: black;
 	/*border-bottom: 10px solid #fff;*/
 }
+.page-section1 {
 
+	min-height: 100%;
+  min-width: 100%;
+	padding: 50px 0;
+	background-color: gray;
+	color: white;
+	/*border-bottom: 10px solid #fff;*/
+}
 .page-section.intro {
 			background: url(../images/background.jpg) no-repeat center center; 
 
@@ -154,6 +164,12 @@ color: white;
 	position: fixed;
     display: block!important;
   }
+   .burguer.in>li{
+	position: absolute;
+  }
+  .burguer.in>li>a{
+	position: absolute;
+  }
 #burguer{
 	float:none!important; 
 }
@@ -164,9 +180,6 @@ color: white;
 	float: none;
 } 
 
-#contTitle{
-
-}
 .titlMarg{
 	margin-left: 15%;	
 }
@@ -192,4 +205,8 @@ color: white;
 #contBtn{
 	margin-left: 20%;
 	margin-top: 45%;
+}
+
+.navbar-nav > li > a, .navbar-nav > li > a:active,.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: black;  /*Sets the text hover color on navbar*/
 }
