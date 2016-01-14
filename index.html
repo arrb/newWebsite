@@ -16,6 +16,9 @@
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <link rel="stylesheet" href="font-awesome-4.4.0/css/bootstrap-social.less">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+    <script type="text/javascript" src="send-email.js"></script>
+	
 
     <script>
         $(document).click(function() {
@@ -90,6 +93,11 @@
                     <div class="col-md-8">
                         <p id="textContent">
                             <span style="font-size: 30px">Hello!</span>
+							<input type="text" value="e-mail" id="maila"/>
+    <button onclick="sendTheMail(); return false;">Send the Mail</button>
+    <pre id="response"></pre>
+
+							
 							<br/>
                             <br/> In January 23rd 2010, I came into this land of opportunity and was fortunate to be accepted as a Computer Science female at the University of Massachusetts-Lowell; studying what I have always wanted since I was little. I wanted to become an engineer just like my father. He has influenced me throughout my life by bringing home the latest technology we could afford in Peru and teaching me about their uses. Technology is his passion, and through him it became mine as well.
                             <br/>
