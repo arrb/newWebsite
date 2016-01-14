@@ -201,6 +201,23 @@ color: white;
     color: black;
     box-shadow: none;
 }
+.btn.outline1 {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline1 {
+    border: 2px solid white;
+    color: white;
+}
+.btn-primary.outline1:hover, .btn-primary.outline1:focus, .btn-primary.outline1:active, .btn-primary.outline1.active, .open > .dropdown-toggle.btn-primary {
+    color: white;
+    border-color: white;
+}
+.btn-primary.outline:active, .btn-primary.outline1.active {
+    border-color: white;
+    color: white;
+    box-shadow: none;
+}
 
 #contBtn{
 	margin-left: 20%;
