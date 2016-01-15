@@ -11,7 +11,7 @@ var mailaddress = document.getElementById("maila").value,
 recipient = [{"email": String(mailaddress)}];
 var params = {
     "message": {
-        "from_email":"anac.arribasplata@gmail.com",
+        "from_email":"test-tpltest@mandrill.com",
         "to": recipient,
         "subject": "Sending a text email from the Mandrill API",
         "text": "I'm learning the Mandrill API at Codecademy.",
