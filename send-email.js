@@ -1,7 +1,7 @@
 function log(obj) {
     var emailEmp = document.getElementById("emailEmp");
     var messageEmp = document.getElementById("messageEmp");
-	var namEmpl = document.getElementById("nameEmpl").value;
+    var namEmpl = document.getElementById("nameEmpl").value;
     var nameToClear = document.getElementById("nameEmpl");
 	
     emailEmp.value = "";
