@@ -49,8 +49,6 @@ body{
 }
 
 .page-section {
-	max-width: 100%;
-	max-height: 100%;
 	min-height: 100%;
 	min-width: 100%;
 	padding: 50px 0;
@@ -59,13 +57,10 @@ body{
 }
 
 .page-section1 {
-
-	max-width: 100%;
-	max-height: 100%;
 	min-height: 100%;
 	min-width: 100%;
 	padding: 50px 0;
-	background-color: gray;
+	background-color: black;
 	color: white;
 }
 
@@ -221,7 +216,7 @@ label[for="nav-trigger"] {
 }
 
 .navbar-nav > li > a, .navbar-nav > li > a:active,.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: black;  
+	color: black;  /*Sets the text hover color on navbar*/
 }
 
 #response{
