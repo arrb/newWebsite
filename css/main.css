@@ -65,7 +65,7 @@ body{
 	min-height: 100%;
 	min-width: 100%;
 	padding: 50px 0;
-	background-color: black;
+	background-color: gray;
 	color: white;
 }
 
@@ -221,7 +221,7 @@ label[for="nav-trigger"] {
 }
 
 .navbar-nav > li > a, .navbar-nav > li > a:active,.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: black;  /*Sets the text hover color on navbar*/
+	color: black;  
 }
 
 #response{
@@ -236,6 +236,5 @@ label[for="nav-trigger"] {
 }
 
 #titleMiddle{
-	/*margin-left:180px;*/
 	text-align: center;
 }
